@@ -6,9 +6,15 @@ A repository to reproduce an issue where `@` file imports in CLAUDE.md are not w
 
 ```
 .
-├── CLAUDE.md                    # Config file with @import
+├── CLAUDE.md # Config file with @import
+├── .claude/
+│   └── rules/
+│       └── sample-claude-code-instructions.md
+├── .cursor/
+│   └── rules/
+│       └── sample-cursor-instructions.mdc # Not loaded since v2.1.2
 └── docs/
-    └── sample-instructions.md   # Sample file to be imported
+    └── sample-instructions.md # Sample file to be imported
 ```
 
 ## How to Reproduce
