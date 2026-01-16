@@ -1,4 +1,4 @@
-# claude-md-imports-repro
+# claude-mdc-imports-repro
 
 A repository to reproduce an issue where `@` file imports in CLAUDE.md are not working properly.
 
